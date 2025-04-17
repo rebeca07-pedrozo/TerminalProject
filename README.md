@@ -1,3 +1,5 @@
+# TerminalProject
+Terminal Project made with Vaadin and Spring Boot 
 # Project Base for Vaadin and Spring Boot
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
