@@ -1,8 +1,8 @@
-package org.vaadin.example;
+package org.vaadin.example.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+import org.vaadin.example.Clases.Reserva;
 
-@Repository
 public interface ReservaRepository extends JpaRepository<Reserva, Long> {
+    // Métodos personalizados si los necesitas
 }

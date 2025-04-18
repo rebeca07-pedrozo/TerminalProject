@@ -1,10 +1,11 @@
-package org.vaadin.example;
+package org.vaadin.example.Clases;
 
 import jakarta.persistence.*;
-
 import java.math.BigDecimal;
-import java.security.Timestamp;
+import java.sql.Timestamp; // <- Corrección importante
 
+@Entity
+@Table(name = "facturas") // opcional pero recomendable
 public class Factura {
 
     @Id
